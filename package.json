@@ -1,14 +1,15 @@
 {
-  "name": "passgen-cli",
+  "name": "v8passgen",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "bin": {
+    "passgen": "index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "CLI to generate random password",
   "dependencies": {
     "commander": "^13.1.0"
   }
